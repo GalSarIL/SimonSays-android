@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simon Says</string>
+    <string name="enter_your_name">הזן את שמך</string>
+    <string name="better_exp">נשמח לדעת את שמך לשמירת תוצאה</string>
+    <string name="name">הכנס שם</string>
+    <string name="save_name">שמור שם</string>
+    <string name="score">ציון</string>
+    <string name="simon_says">המלך אמר</string>
+    <string name="hi_there">שלום לך</string>
+    <string name="start_game">התחל משחק</string>
+    <string name="leaderboard">לוח תוצאות</string>
+    <string name="settings">הגדרות</string>
+    <string name="user_name">שם משתמש</string>
+    <string name="_20">0</string>
+    <string name="musicTxt">מוזיקה</string>
+    <string name="on">הדלק</string>
+    <string name="off">כבה</string>
+    <string name="about_simon_says">על המלך אמר</string>
+    <string name="authors">גל שר ישראל (311504674), מור פישמן (203699434)</string>
+    <string name="gameOverTxt">"המשחק נגמר! תוצאתך היא: "</string>
+    <string name="currScoreTxt">"תוצאה: "</string>
+    <string name="closeGameTxt">המשחק ייסגר בעוד כמה שניות..</string>
+    <string name="savedSuccTxt">נשמר בהצלחה</string>
+    <string name="hebrewBtnTxt">עברית</string>
+    <string name="englishBtnTxt">אנגלית</string>
+    <string name="hi_txt">שלום, </string>
+    <string name="greenDsc">ירוק</string>
+    <string name="redDsc">אדום</string>
+    <string name="blueDsc">כחול</string>
+    <string name="purpleDsc">סגול</string>
+    <string name="edit_nameDsc">Edit Name</string>
+</resources>

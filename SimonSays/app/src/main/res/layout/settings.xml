@@ -1,0 +1,116 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#112130"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/txtSet"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/settings"
+				android:textSize="25sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/btnHebrew"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/btn_on"
+				android:text="@string/hebrewBtnTxt"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF" />
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/btnEnglish"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/btn_off"
+				android:text="@string/englishBtnTxt"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/txtEnable"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/musicTxt"
+				android:textSize="25sp"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/btnOn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/btn_on"
+					android:text="@string/on"
+					android:textSize="20sp"
+					android:textColor="#FFFFFF" />
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/btnOff"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/btn_off"
+					android:text="@string/off"
+					android:textSize="20sp"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:padding="8dp"
+				android:background="#F5F5F5"
+				android:orientation="horizontal" />
+			<TextView
+				android:id="@+id/txtAbout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:padding="8dp"
+				android:text="@string/about_simon_says"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/txtDescript"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/authors"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

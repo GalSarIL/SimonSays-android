@@ -1,0 +1,58 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linrBack"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="8dp"
+		android:paddingTop="14dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="14dp"
+		android:background="@drawable/score_bg"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/imgDp"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_face_white"
+			android:scaleType="center" />
+		<TextView
+			android:id="@+id/txtName"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/user_name"
+			android:textSize="18sp"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1" />
+		<LinearLayout
+			android:id="@+id/linrScore"
+			android:layout_width="70dp"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:background="@drawable/btn_on"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview3"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/_20"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
